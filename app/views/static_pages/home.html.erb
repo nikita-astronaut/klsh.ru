@@ -1,7 +1,15 @@
-<% provide(:title, 'КЛШ') %>
-<h1>Красноярская летняя школа</h1>
-<p>
-  Это главная страница сайта
-  <a href="http://klsh.ru/">КЛШ</a>.
-  Когда-нибудь он заживет :-)
-</p>
+<div class="center hero-unit">
+  <h1>Красноярская летняя школа</h1>
+
+  <h2>
+   	Это главная страница сайта
+  	<a href="http://klsh.ru/">КЛШ</a>.
+  	Когда-нибудь он заживет :-)
+  </h2>
+
+  <%= link_to "Sign up now!", '#', 
+  	class: "btn btn-large btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.png", alt: "Rails"),
+	 'http://rubyonrails.org/' %>
