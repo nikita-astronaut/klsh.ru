@@ -1,7 +1,8 @@
 KlshRu::Application.routes.draw do
-  get "static_pages/home"
-  get "static_pages/contacts"
-  get "static_pages/about"
+  root  'static_pages#home'
+  #match '/signup',  to: 'users#new',            via: 'get'
+  match '/about',   to: 'static_pages#about',   via: 'get'
+  match '/contacts', to: 'static_pages#contacts', via: 'get'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
