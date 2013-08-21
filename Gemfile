@@ -3,7 +3,9 @@ ruby '2.0.0'
 #ruby-gemset=railstutorial_rails_4_0
 
 gem 'rails', '4.0.0'
-gem 'bootstrap-sass'
+#gem 'bootstrap-sass'
+gem 'anjlab-bootstrap-rails', :require => 'bootstrap-rails',
+                              :github => 'anjlab/bootstrap-rails'
 gem 'bcrypt-ruby', '3.0.1'
 
 group :development, :test do
