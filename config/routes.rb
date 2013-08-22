@@ -1,4 +1,5 @@
 KlshRu::Application.routes.draw do
+  get "design_candidates/home1"
   root  'static_pages#home'
   #match '/signup',  to: 'users#new',            via: 'get'
   match '/about',   to: 'static_pages#about',   via: 'get'

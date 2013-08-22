@@ -62,6 +62,9 @@ GEM
       factory_girl (~> 4.2.0)
       railties (>= 3.0.0)
     ffi (1.9.0)
+    fotoramajs (4.3.0.1)
+      jquery-rails (>= 2.1.0)
+      sprockets (>= 2)
     hike (1.2.3)
     i18n (0.6.5)
     jbuilder (1.0.2)
@@ -166,6 +169,7 @@ DEPENDENCIES
   capybara (= 2.1.0)
   coffee-rails (= 4.0.0)
   factory_girl_rails (= 4.2.1)
+  fotoramajs
   jbuilder (= 1.0.2)
   jquery-rails (= 2.2.1)
   pg (= 0.15.1)

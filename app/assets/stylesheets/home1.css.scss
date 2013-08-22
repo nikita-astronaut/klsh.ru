@@ -1,0 +1,101 @@
+@import 'fotorama';
+@import "twitter/bootstrap";
+
+$grayMediumLight: #eaeaea;
+/* universal */
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  padding-top: 0px;
+  margin-left: 1em
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.center {
+  text-align: center;
+  h1 {
+    margin-bottom: 10px;
+  }
+}
+
+
+
+/* typography */
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
+
+h1 {
+  font-size: 3em;
+  letter-spacing: -1px;
+  margin-bottom: 10px;
+  /*text-align: center;*/
+}
+
+
+p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+}
+hr {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  border: 0;
+  border-top: 1px solid #eeeeee;
+}
+
+/*true links*/
+.rred {color: #980905;}
+    a:hover, a:focus, a:active {text-decoration: none; color: #980905; }
+
+.red-dashed {color: #980905; border-bottom:#980905 1px dashed;}
+    a:hover, a:focus, a:active {text-decoration: none; color: #980905; }
+
+
+
+/* footer */
+.footer {margin: 5px 0 50px; text-align: left; color:#666; font-size: 13px;}
+    .footer a {color:#666;}
+
+
+
+/*Fotorama*/
+.fotorama__caption {
+ bottom: 10em;
+left: 3em;
+background-color: rgba(#eee, .6);
+@extend %border-box;
+  padding: 50px 10px;
+}
+
+
+
+/*Navigation*/
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: #ffffff;
+  background-color: #04B404;
+}
+
+.nav-pills > .active > a > .badge {
+  color: #04B404;
+  background-color: #ffffff;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: #eeeeee;
+}
